@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>  this is for Question 7 </head>
+    <p>Find the index of id: 88 using inbuilt javascript method </p>
+    <p id="demo"></p>
+    <body>
+        <script>
+            var users = [ { id: 20, name: 'Captain Piett'} , 
+            {id: 24, name: 'General Veers'} , 
+             {id: 56, name:'Admiral Ozzel'} ,
+             {id: 88, name: 'Commander Jerjerrod'} ];
+
+             let index=users.findIndex(x=>x.id===88);
+             document.getElementById("demo").innerHTML=index;
+             //console.log(index);
+        </script>
+    </body>
+</html>
