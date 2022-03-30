@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<h2>this is for display all users Ids</h2>
+<p>all users id:</p>
+<body>
+<p id="demo1"></p>
+<script>
+var arr=[
+{ id: 20,name:"Captain piett" },
+{ id: 24,name:"ganeral veers" },
+{ id: 56,name:"admiral Ozzel" },
+{ id: 88,name:"Cammander jerjerrod" },]
+var text = arr.map(x=>x.id)
+document.getElementById("demo1").innerHTML=text;
+</script>
+</body>
+</html>
